@@ -3,11 +3,11 @@
 -- Triển khai
 CREATE DATABASE session_5_bai_5;
 USE session_5_bai_5;
-
+-- DROP DATABASE session_5_bai_5;
 CREATE TABLE Users (
 	user_id INT PRIMARY KEY,
     user_name VARCHAR(100) NOT NULL,
-    total_orders INT NOT NULL
+    total_orders INT 
 );
 
 INSERT INTO Users (user_id, user_name, total_orders) VALUES
